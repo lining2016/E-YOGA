@@ -13,29 +13,55 @@
       "Tname": "Jade",
       "pertent": "100%",
       "ordernum": "15单",
-      "imgsrc": "/E-YOGA/images/icon_logo.png"
+      "imgsrc": "/E-YOGA/images/jade.jpg"
     },
     {
       "Tname": "黄悦",
       "pertent": "100%",
       "ordernum": "31单",
-      "imgsrc": "/E-YOGA/images/icon_back.png"
+      "imgsrc": "/E-YOGA/images/huangyue.gif"
     },
     {
       "Tname": "wikky",
       "pertent": "100%",
       "ordernum": "255单",
-      "imgsrc": "/E-YOGA/images/icon_back.png"
-    },{
+      "imgsrc": "/E-YOGA/images/wikky.jpg"
+    },
+    {
       "Tname": "杜鹃",
       "pertent": "100%",
       "ordernum": "217单",
-      "imgsrc": "/E-YOGA/images/icon_back.png"
-    },{
+      "imgsrc": "/E-YOGA/images/dujuan.gif"
+    },
+    {
       "Tname": "菁菁",
       "pertent": "100%",
       "ordernum": "83单",
-      "imgsrc": "/E-YOGA/images/icon_back.png"
+      "imgsrc": "/E-YOGA/images/jingjing.gif"
+    },
+    {
+      "Tname": "榕杉",
+      "pertent": "100%",
+      "ordernum": "209单",
+      "imgsrc": "/E-YOGA/images/rongshan.gif"
+    },
+    {
+      "Tname": "宇光嘉婕",
+      "pertent": "100%",
+      "ordernum": "178单",
+      "imgsrc": "/E-YOGA/images/ygjj.gif"
+    },
+    {
+      "Tname": "大薇",
+      "pertent": "100%",
+      "ordernum": "3单",
+      "imgsrc": "/E-YOGA/images/dw.jpg"
+    },
+    {
+      "Tname": "李慧",
+      "pertent": "100%",
+      "ordernum": "2单",
+      "imgsrc": "/E-YOGA/images/lihui.gif"
     }
   ]
 }
