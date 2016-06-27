@@ -1,0 +1,16 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/E-YOGA/images/wel_1.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/E-YOGA/images/wel_2.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/E-YOGA/images/wel_3.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/E-YOGA/images/wel_1.jpg">
+    </div>
+  </div>
+</div>

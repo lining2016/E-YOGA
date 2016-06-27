@@ -1,0 +1,45 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li><img src="/E-YOGA/images/icon_scan.png"/></li>
+      <li><img src="/E-YOGA//images/logo_home.png"/></li>
+      <li>北京</li>
+    </ul>
+  </header>
+  <section class="Tfix" spa-widget="scroll" spa-widget="scroll" data-scroll-id="fixScroll">
+    <div class="boxfixd">
+      <nav>
+        <ul id="welcome">
+          <li><img src="/E-YOGA/images/icon_default.png" /></li>
+          <li>欢迎回到易伽猫,至今您完成订单</li>
+        </ul>
+        <ul id="xinxi">
+          <li><i>好评</i><b>0%</b></li>
+          <li><i>成交</i><b>0单</b></li>
+          <li><i>积分</i><b>0</b></li>
+        </ul>
+      </nav>
+      <div class="teachers">明星老师</div>
+      <ul ms-repeat-value="teacherslist">
+        <li>
+          <div>
+            <span>
+              <img src="/E-YOGA/images/icon_default.png" />
+              <i><img src="/E-YOGA/images/woman.png" /></i>
+            </span>
+          </div>
+          <div>
+            <p ms-text="value.Tname"></p>
+            <p>
+              <span>好评率：<span ms-text="value.pertent"></span></span>
+              <span>总服务：<span ms-text="value.ordernum"></span></span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <img ms-src="value.imgsrc" />
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

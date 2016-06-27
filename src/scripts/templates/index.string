@@ -1,0 +1,27 @@
+<div class="m-index">
+	<div class="l-container"></div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch.tabs" data-tag="home">
+				<i class="yo-ico">&#xe6f1;</i>
+				<b>首页</b>
+			</li>
+			<li action-type="switch.tabs" data-tag="dingdan">
+				<i class="yo-ico">&#xe6e1;</i>
+				<b>订单</b>
+			</li>
+			<li action-type="switch.tabs">
+				<i class="yo-ico">&#xe602;</i>
+				<b>搜索</b>
+			</li>
+			<li action-type="switch.tabs" data-tag="my">
+				<i class="yo-ico">&#xe634;</i>
+				<b>个人</b>
+			</li>
+			<li action-type="switch.tabs">
+				<i class="yo-ico">&#xe611;</i>
+				<b>钱包</b>
+			</li>
+		</ul>
+	</footer>
+</div>

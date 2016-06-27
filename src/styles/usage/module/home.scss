@@ -1,0 +1,248 @@
+.m-index {
+  .l-container {
+    .m-home {
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header {
+        background: #5b4863;
+        height: .44rem;
+        ul {
+          @include flexbox();
+          height: 100%;
+          li {
+            height: 100%;
+            &:nth-child(1){
+              width: .44rem;
+              @include flexbox();
+              @include justify-content(center);
+              @include align-items(center);
+              img{
+                display: block;
+                width: 0.16rem
+              }
+            }
+            &:nth-child(3) {
+              width: .44rem;
+              text-align: center;
+              line-height: .44rem;
+              color: #fff;
+              font-size: .12rem;
+            }
+            &:nth-child(2) {
+              @include flex(1);
+              @include flexbox();
+              @include justify-content(center);
+              @include align-items(center);
+              img{
+                display: block;
+                height: .16rem;
+              }
+            }
+          }
+        }
+      }
+      section {
+        @include flex(1);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+        div{
+          nav {
+            display: block;
+            height: .7rem;
+            width: 100%;
+            background: #fff;
+            @include flexbox();
+            @include flex-direction(column);
+            #welcome{
+              width: 100%;
+              height: .35rem;
+              @include flexbox();
+              @include flex-direction(row);
+              li{
+                height: 100%;
+                &:nth-child(1){
+                  padding-top: .03rem;
+                  width: .23rem;
+                  height: .34rem;
+                  @include flexbox();
+                  @include justify-content(flex-end);
+                  @include align-items(center);
+                  img{
+                    display: block;
+                    width: .14rem;
+                    border-radius: 50%;
+                  }
+                }
+                &:nth-child(2){
+                  @include flexbox();
+                  line-height: .44rem;
+                  font-size: .1rem;
+                  text-indent: .04rem;
+                  color: #5e5464;
+                }
+              }
+            }
+            #xinxi{
+              @include flexbox();
+              @include flex-direction(row);
+              width: 100%;
+              height: .35rem;
+              li{
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                &:nth-child(1){
+                  width:.35rem;
+                  padding-left: .08rem;
+                  i{
+                    font-size: .07rem;
+                    color: #a3a3a3;
+                  }
+                  b{
+                    font-weight: normal;
+                    font-size: .09rem;
+                    color: blank;
+                  }
+                }
+                &:nth-child(2){
+                  @include flex(1);
+                  @include flexbox();
+                  text-align: center;
+                  i{
+                    font-size: .07rem;
+                    color: #a3a3a3;
+                  }
+                  b{
+                    font-weight: normal;
+                    font-size: .09rem;
+                    color: blank;
+                  }
+                }
+                &:nth-child(3){
+                  width:.35rem;
+                  padding-right: .08rem;
+                  text-align: right;
+                  i{
+                    font-size: .07rem;
+                    color: #a3a3a3;
+                  }
+                  b{
+                    font-weight: normal;
+                    font-size: .09rem;
+                    color: blank;
+                  }
+                }
+              }
+            }
+          }
+          .teachers{
+            text-align: center;
+            line-height: .24rem;
+            height: .24rem;
+            width: 100%;
+            font-size: .1rem;
+            color: #9d9e9f;
+            background: #e9eef1;
+            &.fixed{
+              position: fixed;
+              top: .44rem;
+              left: 0;
+            }
+          }
+          ul{
+            width: 100%;
+            height: 2.57rem;
+            @include flexbox();
+            @include flex-direction(column);
+            li{
+              width: 100%;
+              @include flexbox();
+              &:nth-child(1){
+                width: 100%;
+                height: .44rem;
+                div:nth-child(1){
+                  @include flexbox();
+                  @include justify-content(center);
+                  @include align-items(center);
+                  width: .56rem;
+                  height: 100%;
+                  span{
+                    display: block;
+                    position: relative;
+                    img{
+                      display: block;
+                      width: .34rem;
+                      border-radius: 50%;
+                    }
+                    i{
+                      display: block;
+                      position: absolute;
+                      bottom: 0;
+                      right: 0;
+                      img{
+                        display: block;
+                        width: .09rem;
+                        border-radius: 50%;
+                      }
+                    }
+                  }
+                }
+                div:nth-child(2){
+                  p:nth-child(1){
+                    height: .27rem;
+                    width: 100%;
+                    line-height: .4rem;
+                    font-size: .12rem;
+                    color: #3e3e3e;
+                  }
+                  p:nth-child(2){
+                    height: .17rem;
+                    width: 100%;
+                    line-height: .17rem;
+                    span{
+                      font-size: .08rem;
+                      color: #a4a4a4;
+                      padding-right: .3rem;
+                    }
+                  }
+                }
+              }
+              &:nth-child(2){
+                width: 100%;
+                height: 2.13rem;
+                img{
+                  @include flexbox();
+                  height: 100%;
+                  width: 100%;
+                }
+              }
+            }
+          }
+          &:last-child{
+            padding-bottom: .2rem;
+          }
+        }
+      }
+    }
+    .teachers{
+      text-align: center;
+      line-height: .24rem;
+      height: .24rem;
+      width: 100%;
+      font-size: .1rem;
+      color: #9d9e9f;
+      background: #e9eef1;
+      &.fixed{
+        position: fixed;
+        top: .44rem;
+        left: 0;
+      }
+    }
+  }
+}
